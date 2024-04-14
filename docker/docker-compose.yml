@@ -32,5 +32,5 @@ services:
         ports:
             - '${PORT}:${PORT}'
         volumes:
-            - C:\Data\flowise:/root/.flowise
+            - C:\AI\Flowise\data:/root/.flowise
         command: /bin/sh -c "sleep 3; flowise start"
